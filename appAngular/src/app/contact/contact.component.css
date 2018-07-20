@@ -1,0 +1,54 @@
+@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */
+    .spacer{
+        margin: 20px;
+    }
+
+    input, textarea{
+        background: transparent;
+    }
+
+    .mail{
+        height: 300px;
+    }
+
+    .titre{
+        font-size: 30px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-bottom : 1px solid #FF8F19;
+    }
+
+    .jaune{
+        color: #FF8F19;
+    }
+
+    .form-control{
+         border:1px solid #FF8F19;
+    }
+
+    .btn{
+        border-color:#0084B2;
+    }
+
+    .map-responsive {
+        margin-top: 10px;
+        overflow:hidden;
+        padding-bottom:56.25%;
+        position:relative;
+        height:0;
+    }
+
+    .map-responsive iframe {
+        left:0;
+        top:0;
+        height:100%;
+        width:100%;
+        position:absolute;
+    }
+
+    .sousTitre{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 25px;
+    }
+ }

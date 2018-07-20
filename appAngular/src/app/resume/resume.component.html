@@ -1,0 +1,79 @@
+<div class="container">
+      <div class="text-center typewriter">
+          <app-retour></app-retour>
+            <h1 class="titre">RE<span class="jaune">S</span>UME</h1>
+      </div>
+</div>
+<div class="text-center petitTitre">
+      <h6>{{sousTitre1}}</h6>
+</div>
+<div class="container ">
+      <ul class="text-center" *ngFor="let post of _postsArray">
+          <li class="text-center titreExp bg-jaune blanc">{{post.denomination}}<br>{{post.date}}</li>
+          <li class="text-left spacer">{{post.description}}</li>
+      </ul>
+</div>
+
+<div class="bg-jaune">
+    <div class="text-center petitTitre">
+          <h6>{{sousTitre2}}</h6>
+    </div>
+    <div class="container">
+          <p class="text-center blanc">{{techno1}}</p>
+          <div class="barreRed">
+              <div class="html">
+                {{techno1_2}}
+              </div>
+          </div>
+    </div>
+    <div class="container">
+        <p class="text-center blanc">{{techno3}}</p>
+        <div class="barreRed">
+            <div class="php">
+                {{techno3_2}}
+            </div>
+        </div>
+    </div>
+    <div class="container ">
+          <p class="text-center blanc">{{techno2}}</p>
+          <div class="barreRed">
+              <div class="javascript">
+                {{techno2_2}}
+              </div>
+          </div>
+    </div>
+    <div class="container ">
+          <p class="text-center blanc">{{techno5}}</p>
+          <div class="barreRed">
+              <div class="nodejs">
+                {{techno5_2}}
+              </div>
+          </div>
+    </div>
+    <div class="container ">
+        <p class="text-center blanc">{{techno4}}</p>
+        <div class="barreRed">
+            <div class="angular">
+                {{techno4_2}}
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="text-center petitTitre">
+     <h6>{{sousTitre3}}</h6>
+</div>
+<div class="container text-center">
+    <img class="hvr-buzz" src="https://png.icons8.com/doodle/50/000000/book.png">
+     <p>{{text5}}</p>
+</div>
+<div class="container text-center">
+    <img class="hvr-buzz" src="https://png.icons8.com/dusk/50/000000/world-map.png">
+     <p>{{text5_2}}</p>
+</div>
+<div class="container text-center">
+    <img class="hvr-buzz" src="https://png.icons8.com/color/50/000000/controller.png">
+     <p>{{text5_3}}</p>
+</div>
+
+<app-footer></app-footer>

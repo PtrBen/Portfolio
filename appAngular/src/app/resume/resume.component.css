@@ -1,0 +1,80 @@
+@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */
+    .spacer{
+        margin:15px;
+    }
+
+    .titre{
+        font-size: 30px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-bottom : 1px solid #FF8F19;
+    }
+
+    .jaune{
+        color: #FF8F19;
+    }
+
+    .bg-jaune{
+        border:2px solid #FF8F19;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .titreExp{
+        margin-top: 40px;
+        font-weight: bold;
+    }
+
+    .petitTitre{
+        text-decoration: underline;
+    }
+
+    li{
+        list-style: none;
+    }
+
+    .barreRed {
+        width: 100%;
+        height: 24px;
+        background-color: #FF8F19;
+        border: 2px solid #0084B2;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+
+    .html {
+        width: 75%;
+        height: 20px;
+        background-color: #0084B2;
+        margin-bottom: 20px;
+    }
+
+    .javascript {
+        width: 50%;
+        height: 20px;
+        background-color:  	#0084B2;
+        margin-bottom: 20px;
+    }
+
+    .php {
+        width: 40%;
+        height: 20px;
+        background-color: #0084B2;
+        margin-bottom: 20px;
+    }
+
+    .angular {
+        width: 30%;
+        height: 20px;
+        background-color:  	 	#0084B2;
+        margin-bottom: 20px;
+    }
+
+    .nodejs {
+        width: 20%;
+        height: 20px;
+        background-color: #0084B2;
+        margin-bottom: 20px;
+
+    }
+}

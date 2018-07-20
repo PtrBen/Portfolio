@@ -1,0 +1,43 @@
+@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */
+    .jaune{
+        color: #FF8F19;
+    }
+
+    .titre{
+        font-size: 30px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-bottom : 1px solid #FF8F19;
+    }
+
+    .txtLabel{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+
+    .photoMoi{
+        border: 1px solid #FF8F19;
+        border-radius: 8px;
+        height: 300px;
+        width: auto;
+    }
+
+    .fond{
+        background-image: url();
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+@media (min-width:1281px) { /* hi-res laptops and desktops */
+    .spacer{
+        margin:100px;
+    }
+
+    .bottom{
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+    }
+}
